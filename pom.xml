@@ -31,17 +31,17 @@
   
   <profiles>
 <profile>
-     <id>my-app-deploy</id>
+     <id>myapp-deploy</id>
  <distributionManagement>
     <repository>
-      <id>my-app-releases</id>
-      <name>my-app-releases</name>
-      <url>http://ip-172-31-46-124.us-east-2.compute.internal:8081/nexus/content/repositories/my-app-releases/</url>
+      <id>myapp-releases</id>
+      <name>myapp-releases</name>
+      <url>http://ip-172-31-46-124.us-east-2.compute.internal:8081/nexus/content/repositories/myapp-releases/</url>
     </repository>
     <snapshotRepository>
-      <id>my-app-snapshots</id>
-      <name>my-app-snapshots</name>
-      <url>http://ip-172-31-46-124.us-east-2.compute.internal:8081/nexus/content/repositories/my-app-snapshot/</url>
+      <id>myapp-snapshots</id>
+      <name>myapp-snapshots</name>
+      <url>http://ip-172-31-46-124.us-east-2.compute.internal:8081/nexus/content/repositories/myapp-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 </profile>
