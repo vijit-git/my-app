@@ -10,13 +10,13 @@
   
   <repositories>
     <repository>
-      <id>myapp-releases</id>
-      <name>myapp-releases</name>
+      <id>my-repo2</id>
+      <name>public</name>
       <url>http://ip-172-31-46-124.us-east-2.compute.internal:8081/nexus/content/groups/public/</url>
     </repository>
     <repository>
-      <id>myapp-snapshots</id>
-      <name>myapp-snapshots</name>
+      <id>my-repo1</id>
+      <name>your custom repo</name>
       <url>http://maven.apache.org</url>
     </repository>
  </repositories> 
