@@ -39,7 +39,7 @@
   </repository>
     <snapshotRepository>
     <id>myapp-snapshots</id>
-    <url>http://ec2-13-58-18-213.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/myapp-snapshots</url>
+    <url>http://35.243.155.22:8081/repository/maven1Snap/</url>
   </snapshotRepository>
   </distributionManagement>
 </profile>
