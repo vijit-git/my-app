@@ -35,11 +35,11 @@
  <distributionManagement>
     <repository>
     <id>myapp-releases</id>
-    <url>http://35.243.155.22:8081/repository/Maven1-release/</url>
+    <url>http://35.185.65.200:8081/repository/Maven1-release/</url>
   </repository>
     <snapshotRepository>
     <id>myapp-snapshots</id>
-    <url>http://35.243.155.22:8081/repository/maven1Snap/</url>
+    <url>http://35.185.65.200:8081/repository/maven1Snap/</url>
   </snapshotRepository>
   </distributionManagement>
 </profile>
